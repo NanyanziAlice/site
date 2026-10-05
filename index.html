@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alice Nanyanzi is a PhD candidate at the University of Oklahoma specializing in interdependent systems resilience.">
+  <title>Alice Nanyanzi — PhD Candidate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#202c29; --muted:#64716c; --paper:#f7f8f4; --white:#fff; --green:#315d4e; --line:#dce3dc; --wash:#eaf0e9; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.65 'DM Sans',sans-serif; }
+    a { color:inherit; }
+    .wrap { width:min(1080px, calc(100% - 48px)); margin:auto; }
+    header { height:78px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+    .brand { font-size:14px; font-weight:700; letter-spacing:.02em; text-decoration:none; }
+    nav { display:flex; gap:30px; align-items:center; font-size:13px; color:var(--muted); }
+    nav a { text-decoration:none; } nav a:hover, .text-link:hover { color:var(--green); }
+    .hero { display:grid; grid-template-columns:1fr 300px; gap:80px; align-items:center; padding:92px 0 88px; }
+    .eyebrow { color:var(--green); text-transform:uppercase; letter-spacing:.13em; font-size:11px; font-weight:700; }
+    h1,h2,h3,p { margin-top:0; }
+    h1 { margin:18px 0 15px; font:400 clamp(42px,6vw,66px)/1.05 'Newsreader',Georgia,serif; letter-spacing:-.035em; }
+    .subtitle { font-size:18px; color:var(--muted); margin-bottom:24px; }
+    .intro { max-width:620px; color:#495650; font-size:16px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    .button { display:inline-block; border:1px solid var(--green); padding:10px 17px; border-radius:4px; text-decoration:none; font-size:13px; font-weight:600; }
+    .button.primary { background:var(--green); color:white; }
+    .portrait-frame { width:100%; aspect-ratio:4/5; overflow:hidden; border-radius:3px; background:#e3e9e1; }
+    .portrait { width:100%; height:100%; object-fit:cover; object-position:center center; transform:scale(1.14); display:block; }
+    section { border-top:1px solid var(--line); padding:68px 0; }
+    .section-head { display:grid; grid-template-columns:220px 1fr; gap:55px; }
+    h2 { font:400 34px/1.15 'Newsreader',Georgia,serif; margin-bottom:0; }
+    .body-copy { max-width:650px; color:#495650; }
+    .body-copy p:last-child { margin-bottom:0; }
+    .research-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:28px; }
+    .topic { padding:19px; background:var(--wash); min-height:136px; }
+    .topic strong { display:block; font:400 20px/1.2 'Newsreader',Georgia,serif; margin-bottom:9px; }
+    .topic span { color:var(--muted); font-size:13px; }
+    .pub-list { list-style:none; padding:0; margin:0; }
+    .pub-list li { padding:19px 0; border-bottom:1px solid var(--line); display:grid; grid-template-columns:1fr auto; gap:12px 28px; }
+    .pub-title { font-weight:600; }
+    .pub-meta { font-size:13px; color:var(--muted); }
+    .pub-type { color:var(--green); font-size:11px; text-transform:uppercase; letter-spacing:.1em; font-weight:700; }
+    .text-link { color:var(--green); font-size:13px; font-weight:600; text-decoration:none; }
+    .contact { background:var(--wash); padding:27px 30px; display:flex; justify-content:space-between; align-items:center; gap:24px; }
+    .contact p { margin:0; color:var(--muted); font-size:14px; }
+    footer { border-top:1px solid var(--line); padding:24px 0 32px; color:var(--muted); font-size:12px; display:flex; justify-content:space-between; }
+    @media(max-width:720px) { .wrap{width:min(100% - 36px,560px)} header{height:auto;padding:20px 0;align-items:flex-start;gap:16px;flex-direction:column} nav{gap:18px;flex-wrap:wrap}.hero{grid-template-columns:1fr;gap:30px;padding:58px 0}.portrait-frame{max-width:280px;margin-inline:auto}.section-head{grid-template-columns:1fr;gap:22px} section{padding:48px 0}.research-grid{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column}footer{gap:16px;flex-direction:column} }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="brand" href="#top">Alice Nanyanzi</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#education">Education</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="top" class="wrap">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">PhD Candidate · University of Oklahoma</div>
+        <h1>Alice Nanyanzi</h1>
+        <p class="subtitle">Modeling adversarial attacks and defensive strategies for critical infrastructure resilience.</p>
+        <p class="intro">I am a PhD candidate in Industrial and Systems Engineering at the University of Oklahoma, advised by Kash Barker and Sridhar Radhakrishnan. My research models adversarial attacks and defensive strategies for critical infrastructure resilience, with a focus on how adversarially induced changes in human behavior affect the performance of interdependent systems.</p>
+        <div class="actions"><a class="button primary" href="#publications">Explore my research</a><a class="button" href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C37&amp;q=alice+nanyanzi&amp;oq=alice+" target="_blank" rel="noreferrer">Google Scholar ↗</a><a class="button" href="https://linkedin.com/in/alicenanyanzi" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+      <div class="portrait-frame"><img class="portrait" src="alice-nanyanzi.jpg" alt="Portrait of Alice Nanyanzi"></div>
+    </div>
+    <section id="about">
+      <div class="section-head"><h2>About</h2><div class="body-copy"><p>I am a doctoral researcher in the School of Industrial and Systems Engineering at the University of Oklahoma. My work brings together network modeling, infrastructure resilience, and adversarial behavior. Before OU, I studied mathematics and mathematical sciences in South Africa and computer engineering in Uganda.</p><p>I also work as a Graduate Research Assistant, modeling false-claim attacks on critical infrastructure and designing protection, interdiction, and restoration strategies. I welcome conversations about research and collaboration.</p></div></div>
+    </section>
+    <section id="education">
+      <div class="section-head"><h2>Education</h2><div><ul class="pub-list education-list"><li><div><div class="pub-title">Ph.D. in Industrial and Systems Engineering</div><div class="pub-meta">University of Oklahoma · Aug 2023–present<br>Advisors: Kash Barker and Sridhar Radhakrishnan<br>Research: <em>Modeling Adversarial Attacks and Defensive Strategies for Critical Infrastructure Resilience</em></div></div><span class="pub-type">Ph.D.</span></li><li><div><div class="pub-title">M.Sc. in Mathematics</div><div class="pub-meta">Stellenbosch University · Jan 2017–Dec 2018 · Cum laude<br>Thesis: <em>The Generalised Heat Kernel of a Graph and Applications</em></div></div><span class="pub-type">M.Sc.</span></li><li><div><div class="pub-title">M.Sc. in Mathematical Sciences</div><div class="pub-meta">University of Cape Town · Aug 2015–Jun 2016<br>Thesis: <em>The Laplacian Matrix of a Network and its Applications</em></div></div><span class="pub-type">M.Sc.</span></li><li><div><div class="pub-title">B.Sc. in Computer Engineering</div><div class="pub-meta">Busitema University · Aug 2010–May 2014 · First Class Honours</div></div><span class="pub-type">B.Sc.</span></li></ul></div></div>
+    </section>
+    <section id="research">
+      <div class="section-head"><h2>Research</h2><div class="body-copy"><p>My research models adversarial threats and defensive strategies to understand how changes in human behavior affect the performance and resilience of interdependent critical infrastructure systems.</p>
+        <div class="research-grid"><div class="topic"><strong>Interdependent systems</strong><span>How infrastructure dependencies shape system-wide resilience.</span></div><div class="topic"><strong>Adversarial threats</strong><span>Modeling threats and defensive strategies for critical infrastructure.</span></div><div class="topic"><strong>Human behavior</strong><span>How adversarially induced behavioral change affects system performance.</span></div></div>
+      </div></div>
+    </section>
+    <section id="publications">
+      <div class="section-head"><h2>Selected publications</h2><div>
+        <ul class="pub-list">
+          <li><div><div class="pub-title">Adaptive Disinformation Diffusion on Networks with Heterogeneous Node and Link Dynamics</div><div class="pub-meta">Alice Nanyanzi, Sridhar Radhakrishnan, Kash Barker, Venu Sirisanagandla, and Weinan Wang · <em>IEEE Transactions on Computational Social Systems</em>, 2026</div></div><span class="pub-type">Journal article</span></li>
+          <li><div><div class="pub-title">Modeling the Impact of Disinformation on Infrastructure Networks: A Node-to-Path Causal Failure Approach Across Interconnected Layers</div><div class="pub-meta">Alice Nanyanzi, Kash Barker, Sridhar Radhakrishnan, Zuyuan Zhang, and José Ramirez-Marquez · <em>Reliability Engineering &amp; System Safety</em>, 268, 112021 (2025)</div></div><span class="pub-type">Journal article</span></li>
+          <li><div><div class="pub-title">Generalised Heat Kernel Invariants of a Graph and Application to Object Clustering</div><div class="pub-meta">Franck Kalala Mutombo and Alice Nanyanzi · <em>Computers &amp; Mathematics with Applications</em>, 167, 264–285 (2024)</div></div><span class="pub-type">Journal article</span></li>
+          <li><div><div class="pub-title">Heat Kernel of Networks with Long-Range Interactions</div><div class="pub-meta">Franck Kalala Mutombo, Alice Nanyanzi, and Simukai W. Utete · <em>Complexity</em>, 2024(1), 6745905</div></div><span class="pub-type">Journal article</span></li>
+          <li><div><div class="pub-title">Counter-Spread Interventions in an Adaptive Disinformation Model</div><div class="pub-meta">Alice Nanyanzi, Sridhar Radhakrishnan, and Kash Barker · Manuscript in preparation</div></div><span class="pub-type">Manuscript</span></li>
+        </ul>
+        <p style="margin:20px 0 0"><a class="text-link" href="https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C37&amp;q=alice+nanyanzi&amp;oq=alice+" target="_blank" rel="noreferrer">View Google Scholar results ↗</a> · <a class="text-link" href="https://linkedin.com/in/alicenanyanzi" target="_blank" rel="noreferrer">LinkedIn ↗</a></p>
+      </div></div>
+    </section>
+    <section id="contact">
+      <div class="section-head"><h2>Get in touch</h2><div class="contact"><p>Interested in my work or a possible collaboration?<br><strong>School of Industrial and Systems Engineering<br>University of Oklahoma</strong></p><a class="button primary" href="mailto:nanyanzialice1@gmail.com">Email me</a></div></div>
+    </section>
+  </main>
+  <footer class="wrap"><span>© <span id="year"></span> Alice Nanyanzi</span><span>Built for research, teaching, and conversation.</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
